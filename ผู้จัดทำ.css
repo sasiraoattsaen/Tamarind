@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+*
+{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    overflow-x: hidden;
+    background-color: rgb(227, 227, 228);
+    min-height: 100vh;
+}
+#header
+{
+
+    background-color: rgb(15, 15, 15);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    
+}
+#header .logo
+{
+
+
+    color: #f0f1f1;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+#header ul
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+
+}
+#header ul li 
+{
+    list-style: none;
+    margin-left: 20px;
+}
+#header ul li a
+{
+    text-decoration: none;
+    padding :6px 15px ;
+    color: #f9fbfc;
+    border-radius: 20px;
+}
+#header ul li a:hover,
+#header ul li a.active
+{
+    background: #1b89f0;
+    color: #fff;
+}
+
+.box {
+    
+    display: flex;
+    padding-top: 8rem;
+}
+.hero-info h4{
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    font-size: 3rem;
+    font-family: Angsana New;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/*
+.box8 {
+    border: 1px solid red; 
+    margin-top: 1rem;
+    display: flex;
+    padding-bottom: 2rem;
+}
+.hero-info3{
+    border: 1px solid red; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.item{
+    border: 1px solid red; 
+    padding-top: 2rem;
+    padding-left: 2rem;
+}*/
+
+.item1{
+    padding-top: 1rem;
+    padding-right: 3rem;
+
+}
+.item2{
+    padding-top: 1rem;
+    padding-left: 6rem;
+
+}
+.item1 p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 2rem;
+    font-family: Angsana New;
+}
+
+.item2 p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 2rem;
+    font-family: Angsana New;
+}
+.icon img{
+    width: 70px;
+    height: 70px;
+}
+
+
+
+
+.icon a{
+
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: Angsana New;
+
+
+    justify-content: center;
+    align-items: center; 
+
+    border-radius: 20px;
+    padding :6px 10px ;
+}
